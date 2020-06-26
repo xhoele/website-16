@@ -14,7 +14,15 @@ body {
     position: absolute;
     left: 126px;
     top: 159px;
+    animation-name: atom1;
+    animation-duration: 1.3s;
 }
+
+@keyframes atom1 {
+    0% {transform: translateX(-300px);}
+    100% {transform: translateX(0px);}
+}
+
 
 #input-1 input {
     border: 2px solid #f4f4f4;
@@ -28,6 +36,13 @@ body {
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
     color: #f4f4f4;
+    animation-name: name;
+    animation-duration: 1.3s;
+}
+
+@keyframes name {
+    0% {transform: translateX(-700px);}
+    100% {transform: translateX(0px);}
 }
 
 #input-2 input {
@@ -42,6 +57,21 @@ body {
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
     color: #f4f4f4;
+    animation-name: surname;
+    animation-duration: 1.4s;
+}
+
+@keyframes surname {
+    0% {transform: translateX(-700px);}
+    100% {transform: translateX(0px);}
+}
+
+#input-1 input::placeholder {
+    opacity: 80%;
+}
+
+#input-2 input::placeholder {
+    opacity: 80%;
 }
 
 #btn-1 button {
@@ -58,9 +88,130 @@ body {
     font-size: 12px;
     cursor: pointer;
     transition: 0.7s;
+    animation-name: btn-1;
+    animation-duration: 1.6s;
+}
+
+@keyframes btn-1 {
+    0% {transform: translateY(-150px); opacity: 0%;}
+    40% {opacity: 0%;}
+    100% {transform: translateY(0px); opacity: 100%;}
 }
 
 #btn-1 button:hover {
     background-color: #f4f4f4;
     color: #333333;
+}
+
+#right-bg {
+    background-image: url(../images/bg.png);
+    width: 694px;
+    height: 768px;
+    position: fixed;
+    left: 674px;
+    top: 0px;
+    animation-name: bg;
+    animation-duration: 4.5s;
+}
+
+@keyframes bg {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+#atom-beta {
+    font-family: 'Montserrat SemiBold';
+    font-size: 40px;
+    position: absolute;
+    left: 857px;
+    top: 159px;
+    color: #1d1d1d;
+    animation-name: atombeta;
+    animation-duration: 1.3s;
+}
+
+@keyframes atombeta {
+    0% {transform: translateX(300px);}
+    100% {transform: translateX(0px);}
+}
+
+#input-1-2 input {
+    border: 2px solid #1d1d1d;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 307px;
+    height: 36px;
+    position: absolute;
+    left: 857px;
+    top: 228px;
+    padding-left: 15px;
+    font-family: 'Montserrat SemiBold';
+    color: #f4f4f4;
+    animation-name: appleid;
+    animation-duration: 1.3s;
+}
+
+@keyframes appleid {
+    0% {transform: translateX(180px);}
+    100% {transform: translateX(0px);}
+}
+
+#input-2-2 input {
+    border: 2px solid #1d1d1d;
+    border-radius: 5px;
+    background-color: transparent;
+    width: 307px;
+    height: 36px;
+    position: absolute;
+    left: 857px;
+    top: 284px;
+    padding-left: 15px;
+    font-family: 'Montserrat SemiBold';
+    color: #f4f4f4;
+    animation-name: devid;
+    animation-duration: 1.5s;
+}
+
+@keyframes devid {
+    0% {transform: translateX(180px);}
+    100% {transform: translateX(0px);}
+}
+
+#input-1-2 input::placeholder {
+    color: #1d1d1d;
+    opacity: 80%;
+}
+
+#input-2-2 input::placeholder {
+    color: #1d1d1d;
+    opacity: 80%;
+}
+
+#btn-2 button {
+    background-color: transparent;
+    color: #1d1d1d;
+    width: 77.63px;
+    height: 27px;
+    position: absolute;
+    left: 1104px;
+    top: 345px;
+    border-radius: 5px;
+    border: 2px solid #1d1d1d;
+    font-family: 'Montserrat SemiBold';
+    font-size: 12px;
+    cursor: pointer;
+    transition: 0.7s;
+    animation-name: btn-2;
+    animation-duration: 1.6s;
+}
+
+@keyframes btn-2 {
+    0% {transform: translateY(-150px); opacity: 0%;}
+    45% {opacity: 0%;}
+    100% {transform: translateY(0px); opacity: 100%;}
+}
+
+#btn-2 button:hover {
+    background-color: #1d1d1d;
+    color: #f4f4f4;
 }
