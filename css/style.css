@@ -147,11 +147,11 @@ body {
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
     color: #f4f4f4;
-    animation-name: appleid;
+    animation-name: apple-id;
     animation-duration: 1.3s;
 }
 
-@keyframes appleid {
+@keyframes apple-id {
     0% {transform: translateX(180px);}
     100% {transform: translateX(0px);}
 }
@@ -168,11 +168,11 @@ body {
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
     color: #f4f4f4;
-    animation-name: devid;
+    animation-name: dev-id;
     animation-duration: 1.5s;
 }
 
-@keyframes devid {
+@keyframes dev-id {
     0% {transform: translateX(180px);}
     100% {transform: translateX(0px);}
 }
