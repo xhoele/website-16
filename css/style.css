@@ -7,6 +7,21 @@ body {
     background-color: #1d1d1d;
 }
 
+#navbar-logo a {
+    background-image: url(../images/navbar-logo.png);
+    width: 32px;
+    height: 32.82px;
+    position: absolute;
+    left: 39.62px;
+    top: 21.54px;
+    transition: 0.7s;
+    opacity: 80%;
+}
+
+#navbar-logo a:hover {
+    opacity: 100%;
+}
+
 #atom {
     font-family: 'Montserrat SemiBold';
     font-size: 40px;
