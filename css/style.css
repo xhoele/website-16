@@ -146,7 +146,7 @@ body {
     top: 228px;
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
-    color: #f4f4f4;
+    color: #1d1d1d;
     animation-name: apple-id;
     animation-duration: 1.3s;
 }
@@ -167,7 +167,7 @@ body {
     top: 284px;
     padding-left: 15px;
     font-family: 'Montserrat SemiBold';
-    color: #f4f4f4;
+    color: #1d1d1d;
     animation-name: dev-id;
     animation-duration: 1.5s;
 }
@@ -538,22 +538,121 @@ body {
     color: #f4f4f4;
 }
 
-#main-footer {
+#blue-line {
+    background-image: url(../images/blue-line.png);
+    width: 1349px;
+    height: 35px;
     position: absolute;
-    left: 580px;
-    top: 778px;
+    left: 0px;
+    top: 803px;
+}
+
+#bg-2 {
+    background-image: url(../images/bg-2.png);
+    width: 1349px;
+    height: 705px;
+    position: absolute;
+    left: 0px;
+    top: 838px;
+}
+
+#faster-than {
+    font-family: 'Montserrat SemiBold';
+    font-size: 50px;
+    position: absolute;
+    left: 125px;
+    top: 1022px;
+    color: #f4f4f4;
+}
+
+#f2x {
     font-family: 'Montserrat SemiBold';
     font-size: 18px;
     color: #f4f4f4;
-    padding-bottom: 5px;
+    position: absolute;
+    left: 147px;
+    top: 1097px;
 }
 
-#main-footer-2nd {
-    position: absolute;
-    left: 729px;
-    top: 778px;
+#f8x {
     font-family: 'Montserrat SemiBold';
     font-size: 18px;
-    color: #1d1d1d;
-    padding-bottom: 5px;
+    color: #f4f4f4;
+    position: absolute;
+    left: 147px;
+    top: 1127px;
+}
+
+#box-2nd-1 {
+    background-image: url(../images/box-2nd-1.png);
+    width: 448px;
+    height: 312px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 125px;
+    top: 1193px;
+}
+
+#red-comp {
+    background-image: url(../images/red.png);
+    width: 289px;
+    height: 36px;
+    position: absolute;
+    left: 167px;
+    top: 1237px;
+}
+
+#green-comp {
+    background-image: url(../images/green.png);
+    width: 289px;
+    height: 36px;
+    position: absolute;
+    left: 167px;
+    top: 1293px;
+}
+
+#blue-comp {
+    background-image: url(../images/blue.png);
+    width: 289px;
+    height: 36px;
+    position: absolute;
+    left: 167px;
+    top: 1349px;
+}
+
+#atom-red {
+    color: #ff453a;
+    font-family: 'Montserrat SemiBold';
+    font-size: 18px;
+    position: absolute;
+    left: 231px;
+    top: 1454px;
+}
+
+#lorem-green {
+    color: #30d158;
+    font-family: 'Montserrat SemiBold';
+    font-size: 18px;
+    position: absolute;
+    left: 317px;
+    top: 1454px;
+}
+
+#ipsum-blue {
+    color: #0a84ff;
+    font-family: 'Montserrat SemiBold';
+    font-size: 18px;
+    position: absolute;
+    left: 410px;
+    top: 1454px;
+}
+
+#big-rectangle {
+    background-image: url(../images/big-rectangle.png);
+    width: 453px;
+    height: 533px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 854px;
+    top: 976px;
 }
