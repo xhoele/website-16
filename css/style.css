@@ -16,6 +16,13 @@ body {
     top: 21.54px;
     transition: 0.7s;
     opacity: 80%;
+    animation-name: logo;
+    animation-duration: 1.6s;
+}
+
+@keyframes logo {
+    0% {transform: translateX(-100px);}
+    100% {transform: translateX(0px);}
 }
 
 #navbar-logo a:hover {
@@ -93,7 +100,7 @@ body {
     background-color: transparent;
     color: #f4f4f4;
     width: 77.63px;
-    height: 27px;
+    height: 30px;
     position: absolute;
     left: 372px;
     top: 345px;
@@ -206,7 +213,7 @@ body {
     background-color: transparent;
     color: #1d1d1d;
     width: 77.63px;
-    height: 27px;
+    height: 30px;
     position: absolute;
     left: 1104px;
     top: 345px;
@@ -349,14 +356,14 @@ body {
 #btn-3 button {
     border-radius: 5px;
     border: 2px solid #f4f4f4;
-    width: 77.63px;
-    height: 27px;
+    width: 88px;
+    height: 30px;
     position: absolute;
     left: 243px;
-    top: 679px;
+    top: 677px;
     background-color: transparent;
     font-family: 'Montserrat SemiBold';
-    font-size: 10px;
+    font-size: 13px;
     color: #f4f4f4;
     transition: 0.7s;
     cursor: pointer;
@@ -528,14 +535,14 @@ body {
 #btn-4 button {
     border-radius: 5px;
     border: 2px solid #1d1d1d;
-    width: 77.63px;
-    height: 27px;
+    width: 88px;
+    height: 30px;
     position: absolute;
-    left: 973px;
-    top: 679px;
+    left: 967px;
+    top: 676px;
     background-color: transparent;
     font-family: 'Montserrat SemiBold';
-    font-size: 10px;
+    font-size: 13px;
     color: #1d1d1d;
     transition: 0.7s;
     cursor: pointer;
