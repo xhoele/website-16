@@ -610,8 +610,9 @@ body {
 
 #red-comp {
     background-image: url(../images/red.png);
-    width: 289px;
-    height: 36px;
+    width: 300px;
+    height: 38px;
+    background-repeat: no-repeat;
     position: absolute;
     left: 167px;
     top: 1237px;
@@ -619,8 +620,9 @@ body {
 
 #green-comp {
     background-image: url(../images/green.png);
-    width: 289px;
-    height: 36px;
+    width: 300px;
+    height: 38px;
+    background-repeat: no-repeat;
     position: absolute;
     left: 167px;
     top: 1293px;
@@ -628,8 +630,9 @@ body {
 
 #blue-comp {
     background-image: url(../images/blue.png);
-    width: 289px;
-    height: 36px;
+    width: 300px;
+    height: 38px;
+    background-repeat: no-repeat;
     position: absolute;
     left: 167px;
     top: 1349px;
@@ -671,3 +674,27 @@ body {
     left: 854px;
     top: 976px;
 }
+
+#us-flag {
+    background-image: url(../images/usflag.png);
+    width: 32px;
+    height: 29.28px;
+    position: absolute;
+    left: 1303px;
+    top: 20.06px;
+    transition: 0.7s;
+    cursor: pointer;
+    opacity: 80%;
+    animation-name: usflag;
+    animation-duration: 1.6s;
+}
+
+@keyframes usflag {
+    0% {transform: translateY(-100px);}
+    100% {transform: translateY(0px);}
+}
+
+#us-flag:hover {
+    opacity: 100%;
+}
+
